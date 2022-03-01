@@ -1,0 +1,1 @@
+-- 1) Retrieve the emp_no, first_name, and last_name columns from the Employees table.
