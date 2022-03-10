@@ -87,7 +87,7 @@ SELECT ce.emp_no,
 ce.first_name,
 ce.last_name,
 d.dept_name
--- INTO sales_and_dev_info
+INTO sales_and_dev_info
 FROM current_emp as ce
 INNER JOIN dept_employees as de
 ON (ce.emp_no = de.emp_no)
