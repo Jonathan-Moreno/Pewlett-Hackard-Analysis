@@ -21,5 +21,6 @@ It is important to pull the count from this table, as it has had a DISTINCT ON s
 
 Using a similar query we can pull the count from the mentorship_eligibility table to find how many eligible mentors PH will have to assist with the "silver tsunami," the query is as follows:
 * SELECT COUNT (emp_no)FROM mentorship_eligibilty;
+
 Running this query will show us that there are 1,549 eligible employees for the mentorship program, with 72,458 positions to fill. This would leave each mentor having to be responsible for ~47 employees each which doesn't seem feasible. It is my belief that PH will have to find more mentors elsewhere before the silver tsunami makes its impact. 
 
