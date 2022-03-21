@@ -15,7 +15,7 @@ Creating databases to assist a large scale employer in keeping track of their up
 ## Summary 
 As the "silver tsunami" begins to make an impact, Pewlett-Hackard will have to fill 72,458 positions. This information can be pulled using the following query:
 
-* SELECT COUNT (emp_no) FROM retiring_titles
+* SELECT COUNT (emp_no) FROM unique_titles;
 
 It is important to pull the count from this table, as it has had a DISTINCT ON statement applied to the data. This ensures that there are no rows of repeating names on the list. 
 
